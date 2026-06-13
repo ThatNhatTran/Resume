@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#1f3a5f" />
+
+  <!-- ============================================================= -->
+  <!-- EDIT ME: page title + description (shown in browser tab/search) -->
+  <!-- ============================================================= -->
+  <title>Your Name — Portfolio &amp; Résumé</title>
+  <meta name="description" content="Portfolio and résumé of Your Name — Computer Science graduate (Data Science) and Early Childhood Educator." />
+
+  <!-- Social share preview (Open Graph) -->
+  <meta property="og:title" content="Your Name — Portfolio &amp; Résumé" />
+  <meta property="og:description" content="Computer Science graduate (Data Science) & Early Childhood Educator." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ======================= NAVBAR ======================= -->
+  <header class="nav" id="top">
+    <div class="nav__inner">
+      <!-- EDIT ME: your initials / name in the corner -->
+      <a class="nav__brand" href="#top" aria-label="Back to top">
+        <span class="nav__monogram">YN</span>
+        <span class="nav__name">Your Name</span>
+      </a>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav__menu" id="navMenu" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ======================= HERO ======================= -->
+    <section class="hero" id="hero">
+      <div class="hero__inner">
+        <div class="hero__text reveal">
+          <p class="kicker">Portfolio &amp; Résumé</p>
+          <!-- EDIT ME: your name -->
+          <h1 class="hero__name">Your Name</h1>
+          <!-- EDIT ME: your professional title / focus -->
+          <p class="hero__title">Early Childhood Educator &middot; Computer Science Graduate</p>
+
+          <p class="hero__summary">
+            Monash University Computer Science graduate specialising in Data Science,
+            with a Graduate Diploma of Early Childhood Education from RMIT University.
+            Currently seeking full-time / part-time Early Childhood Educator &amp; Teacher roles.
+          </p>
+
+          <ul class="hero__contacts">
+            <!-- EDIT ME: replace the href and visible text with your details -->
+            <li>
+              <a href="mailto:your.email@example.com">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm0 2v.01L12 13l8-6.99V6H4zm16 12V8.24l-8 7-8-7V18h16z"/></svg>
+                your.email@example.com
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/yourusername" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-.88-.01-1.73-2.78.62-3.37-1.21-3.37-1.21-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.27 2.75 1.05a9.34 9.34 0 0 1 5 0c1.91-1.32 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.48-.01 2.82 0 .27.18.6.69.49A10.03 10.03 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg>
+                github.com/yourusername
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3V9zm6 0h3.8v1.64h.05c.53-1 1.83-2.05 3.77-2.05C20.4 8.59 22 10.28 22 13.6V21h-4v-6.56c0-1.56-.03-3.57-2.18-3.57-2.18 0-2.51 1.7-2.51 3.46V21H9V9z"/></svg>
+                linkedin.com/in/yourprofile
+              </a>
+            </li>
+            <li>
+              <span class="hero__location">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
+                Melbourne, Australia
+              </span>
+            </li>
+          </ul>
+
+          <div class="hero__actions">
+            <button class="btn btn--primary" id="downloadBtn">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v10.59l3.3-3.3 1.4 1.42L12 17.4l-4.7-5.69 1.4-1.42 3.3 3.3V3h2zM5 19h14v2H5z"/></svg>
+              Download Résumé
+            </button>
+            <a class="btn btn--ghost" href="#contact">Get in touch</a>
+          </div>
+        </div>
+
+        <div class="hero__aside reveal">
+          <!-- No photo provided — this is a styled monogram placeholder.
+               EDIT ME: to use a real photo, replace this whole block with:
+               <img class="hero__photo" src="assets/photo.jpg" alt="Your Name" /> -->
+          <div class="hero__avatar" aria-hidden="true">YN</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= ABOUT ======================= -->
+    <section class="section" id="about">
+      <div class="section__head reveal">
+        <p class="section__kicker">01 — About</p>
+        <h2 class="section__title">Profile</h2>
+      </div>
+      <div class="about reveal">
+        <p>
+          I bridge two worlds: a technical background in Computer Science and Data Science,
+          and a genuine passion for early childhood education. My Monash University degree gave me
+          strong analytical, problem-solving, and technical skills, while my Graduate Diploma at RMIT
+          and hands-on educator roles across Melbourne centres have shaped my care, communication,
+          and child-development practice.
+        </p>
+        <p>
+          I work confidently within the National Quality Standard (NQS), the EYLF, and the VEYLDF,
+          and I bring a strengths-based, inclusive approach to every room. I'm currently seeking
+          full-time or part-time Early Childhood Educator and Teacher opportunities.
+        </p>
+        <div class="about__highlights">
+          <div class="highlight">
+            <span class="highlight__num">5+</span>
+            <span class="highlight__label">Educator &amp; data roles</span>
+          </div>
+          <div class="highlight">
+            <span class="highlight__num">2</span>
+            <span class="highlight__label">Qualifications<br>(BCompSci &amp; Grad. Dip.)</span>
+          </div>
+          <div class="highlight">
+            <span class="highlight__num">2</span>
+            <span class="highlight__label">Languages<br>(EN &amp; VI)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= EXPERIENCE ======================= -->
+    <section class="section section--alt" id="experience">
+      <div class="section__head reveal">
+        <p class="section__kicker">02 — Experience</p>
+        <h2 class="section__title">Professional Experience</h2>
+      </div>
+
+      <div class="timeline">
+
+        <article class="tl-item reveal">
+          <div class="tl-item__dot"></div>
+          <div class="tl-item__body">
+            <div class="tl-item__top">
+              <h3 class="tl-item__role">Assistant Educator <span class="tl-item__type">Permanent Part-time</span></h3>
+              <span class="tl-item__date">2026 Mar – Present</span>
+            </div>
+            <p class="tl-item__org">Niño Early Learning Adventures <span class="dot">·</span> Melbourne, Australia</p>
+            <ul class="tl-item__list">
+              <li>Integrated Niño's Positive Education framework into daily classroom practice.</li>
+              <li>Supported the room leader with nourishment plans and indoor/outdoor observations.</li>
+              <li>Adhered to all centre policies and procedures in line with the National Quality Standard (NQS) and Child Safe Standards.</li>
+              <li>Assisted the Room Leader in writing observations, learning snapshots, and indoor/outdoor plans aligned with the VEYLDF.</li>
+              <li>Collaborated with the Room Leader and educator team to deliver smooth daily routines.</li>
+              <li>Contributed to a positive, inclusive room culture by modelling respect, kindness, and a strengths-based approach with children, families, and colleagues.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="tl-item reveal">
+          <div class="tl-item__dot"></div>
+          <div class="tl-item__body">
+            <div class="tl-item__top">
+              <h3 class="tl-item__role">Casual Educator</h3>
+              <span class="tl-item__date">2026 Mar</span>
+            </div>
+            <p class="tl-item__org">Inspire Early Learning Journey <span class="dot">·</span> Melbourne, Australia</p>
+            <ul class="tl-item__list">
+              <li>Supported educators in delivering play-based learning experiences aligned with EYLF outcomes.</li>
+              <li>Assisted with daily routines: meals, nappy changes, rest time, and room hygiene.</li>
+              <li>Observed and documented children's interests, behaviours, and progress to inform individual learning plans.</li>
+              <li>Adhered to all centre policies, including health, safety, and Child Safe Standards.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="tl-item reveal">
+          <div class="tl-item__dot"></div>
+          <div class="tl-item__body">
+            <div class="tl-item__top">
+              <h3 class="tl-item__role">Casual Assistant Educator</h3>
+              <span class="tl-item__date">2024 Nov – 2026 Mar</span>
+            </div>
+            <p class="tl-item__org">Buddies Early Learning Centre Jasper <span class="dot">·</span> Melbourne, Australia</p>
+            <ul class="tl-item__list">
+              <li>Supported educators in implementing appropriate learning experiences aligned with EYLF outcomes.</li>
+              <li>Assisted in daily routines such as meal preparation, nappy changing, rest-time supervision, and maintaining a clean, safe environment.</li>
+              <li>Observed and documented children's learning behaviours, interests, and progress for individual learning plans.</li>
+              <li>Followed all centre policies, including health, safety, and child protection standards.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="tl-item reveal">
+          <div class="tl-item__dot"></div>
+          <div class="tl-item__body">
+            <div class="tl-item__top">
+              <h3 class="tl-item__role">Casual Assistant Educator</h3>
+              <span class="tl-item__date">2025 Dec – Present</span>
+            </div>
+            <p class="tl-item__org">First Grammar Langwarrin <span class="dot">·</span> Melbourne, Australia</p>
+            <ul class="tl-item__list">
+              <li>Supported daily care routines, including mealtimes, toileting, sleep, and hygiene practices.</li>
+              <li>Contributed to observations and learning documentation to support individual planning and reflection.</li>
+              <li>Maintained a safe learning environment, following centre procedures for health, safety, and child protection.</li>
+              <li>Supported room educators to deliver play-based experiences aligned with the EYLF and children's emerging interests.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="tl-item reveal">
+          <div class="tl-item__dot"></div>
+          <div class="tl-item__body">
+            <div class="tl-item__top">
+              <h3 class="tl-item__role">Data Analyst Intern</h3>
+              <span class="tl-item__date">2021 Feb – 2021 May</span>
+            </div>
+            <p class="tl-item__org">Vietnam Air Services Company (VASCO) <span class="dot">·</span> Ho Chi Minh City, Vietnam</p>
+            <ul class="tl-item__list">
+              <li>Cleaned and classified raw datasets into clear, identifiable trends and insights for the organisation.</li>
+              <li>Supported the team with modelling using datasets from a variety of sources to represent growth trends.</li>
+              <li>Collaborated with the manager to perform analysis and anomaly detection across large datasets.</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ======================= PROJECTS ======================= -->
+    <section class="section" id="projects">
+      <div class="section__head reveal">
+        <p class="section__kicker">03 — Portfolio</p>
+        <h2 class="section__title">Projects</h2>
+      </div>
+
+      <div class="projects">
+
+        <article class="card reveal">
+          <div class="card__head">
+            <h3 class="card__title">Medical Summariser Application</h3>
+            <span class="card__date">2024 Feb – Jun</span>
+          </div>
+          <p class="card__sub">Monash University Project</p>
+          <p class="card__desc">
+            A Flask web application that lets doctors view concise, AI-generated summaries of patients'
+            medical histories — pulling radiology and discharge notes from health records and summarising
+            them with a large language model.
+          </p>
+          <ul class="card__points">
+            <li>Cleaned and corrected MIMIC-IV health records for accuracy and consistency.</li>
+            <li>Retrieved the Flan-T5-Large LLM from Hugging Face to summarise clinical notes.</li>
+            <li>Imported data into a local MySQL database for seamless retrieval.</li>
+            <li>Designed an intuitive UI to search and filter records by patient ID and date range.</li>
+          </ul>
+          <ul class="tags">
+            <li>Python</li><li>Flask</li><li>Hugging Face</li><li>Flan-T5</li><li>MySQL</li>
+          </ul>
+          <!-- EDIT ME: add a real repo/demo link, or remove if private -->
+          <div class="card__links">
+            <a href="#" aria-disabled="true">Add link →</a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__head">
+            <h3 class="card__title">Data Visualisation</h3>
+            <span class="card__date">2022 Jul – Nov</span>
+          </div>
+          <p class="card__sub">Monash University Project</p>
+          <p class="card__desc">
+            Interactive data visualisations exploring real-world Australian datasets, built to surface
+            trends clearly for a general audience.
+          </p>
+          <ul class="card__points">
+            <li>Used Tableau to visualise coffee export &amp; import across Australia.</li>
+            <li>Used Vega to visualise crime-rate data sourced from the university.</li>
+          </ul>
+          <ul class="tags">
+            <li>Tableau</li><li>Vega</li><li>Data Analysis</li>
+          </ul>
+          <div class="card__links">
+            <a href="#" aria-disabled="true">Add link →</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ======================= SKILLS ======================= -->
+    <section class="section section--alt" id="skills">
+      <div class="section__head reveal">
+        <p class="section__kicker">04 — Skills</p>
+        <h2 class="section__title">Technical Proficiencies</h2>
+      </div>
+
+      <div class="skills">
+        <div class="skills__group reveal">
+          <h3>Coding &amp; Data</h3>
+          <ul class="tags">
+            <li>Python</li><li>RStudio</li><li>MySQL</li><li>Linux</li>
+            <li>Tableau</li><li>Vega</li><li>Flask</li>
+          </ul>
+        </div>
+        <div class="skills__group reveal">
+          <h3>IT Support</h3>
+          <ul class="tags">
+            <li>Troubleshooting</li><li>Hardware &amp; software install</li>
+            <li>Network configuration</li><li>Email setup</li>
+            <li>System security</li><li>JIRA</li><li>ServiceNow</li>
+          </ul>
+        </div>
+        <div class="skills__group reveal">
+          <h3>Microsoft Office</h3>
+          <ul class="tags">
+            <li>Word</li><li>Excel</li><li>PowerPoint</li><li>Access</li>
+          </ul>
+        </div>
+        <div class="skills__group reveal">
+          <h3>Sound Design</h3>
+          <ul class="tags">
+            <li>FMOD Studio</li><li>Reaper</li><li>Helm Synthesizer</li><li>Unity Soundscape</li>
+          </ul>
+        </div>
+        <div class="skills__group reveal">
+          <h3>Other</h3>
+          <ul class="tags">
+            <li>Prompt Engineering</li><li>WordPress Development</li>
+          </ul>
+        </div>
+        <div class="skills__group reveal">
+          <h3>Languages</h3>
+          <ul class="lang">
+            <li><span>English</span><em>Proficient</em></li>
+            <li><span>Vietnamese</span><em>Native</em></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= EDUCATION + CERTS ======================= -->
+    <section class="section" id="education">
+      <div class="section__head reveal">
+        <p class="section__kicker">05 — Education</p>
+        <h2 class="section__title">Education &amp; Certificates</h2>
+      </div>
+
+      <div class="edu">
+        <div class="edu__col">
+          <article class="edu-item reveal">
+            <span class="edu-item__date">2024 – 2025</span>
+            <h3 class="edu-item__degree">Graduate Diploma of Early Childhood Education</h3>
+            <p class="edu-item__school">RMIT University</p>
+          </article>
+          <article class="edu-item reveal">
+            <span class="edu-item__date">2020 – 2024</span>
+            <h3 class="edu-item__degree">Bachelor of Computer Science <span class="edu-item__spec">(Data Science)</span></h3>
+            <p class="edu-item__school">Monash University</p>
+          </article>
+        </div>
+
+        <div class="edu__col">
+          <article class="edu-item reveal">
+            <span class="edu-item__date">2024</span>
+            <h3 class="edu-item__degree">IT Support Specialist Certificate</h3>
+            <p class="edu-item__school">Google (online certificate)</p>
+          </article>
+          <article class="edu-item reveal">
+            <span class="edu-item__date">Online</span>
+            <h3 class="edu-item__degree">Udemy Courses</h3>
+            <p class="edu-item__school">Prompt Engineering · Web Development (WordPress) · Data Analysis</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= CONTACT ======================= -->
+    <section class="section section--alt contact" id="contact">
+      <div class="contact__inner reveal">
+        <p class="section__kicker">06 — Contact</p>
+        <h2 class="section__title">Let's work together</h2>
+        <p class="contact__lead">
+          Open to full-time and part-time Early Childhood Educator &amp; Teacher roles.
+          Feel free to reach out — references available upon request.
+        </p>
+        <!-- EDIT ME: your email -->
+        <a class="btn btn--primary btn--lg" href="mailto:your.email@example.com">Email me</a>
+        <div class="contact__socials">
+          <!-- EDIT ME: your links -->
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-.88-.01-1.73-2.78.62-3.37-1.21-3.37-1.21-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.27 2.75 1.05a9.34 9.34 0 0 1 5 0c1.91-1.32 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.48-.01 2.82 0 .27.18.6.69.49A10.03 10.03 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg>
+          </a>
+          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3V9zm6 0h3.8v1.64h.05c.53-1 1.83-2.05 3.77-2.05C20.4 8.59 22 10.28 22 13.6V21h-4v-6.56c0-1.56-.03-3.57-2.18-3.57-2.18 0-2.51 1.7-2.51 3.46V21H9V9z"/></svg>
+          </a>
+          <a href="mailto:your.email@example.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm0 2v.01L12 13l8-6.99V6H4zm16 12V8.24l-8 7-8-7V18h16z"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======================= FOOTER ======================= -->
+  <footer class="footer">
+    <p>&copy; <span id="year">2026</span> Your Name. Built with HTML, CSS &amp; JavaScript.</p>
+    <a href="#top" class="footer__top">Back to top ↑</a>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

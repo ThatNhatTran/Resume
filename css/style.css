@@ -268,11 +268,11 @@ svg { width: 1em; height: 1em; fill: currentColor; }
 
 /* ------------------------------ Footer ------------------------------ */
 .footer {
-  max-width: var(--maxw); margin: 0 auto; padding: 2rem 1.5rem;
-  display: flex; flex-wrap: wrap; gap: .6rem; justify-content: space-between; align-items: center;
-  color: var(--muted); font-size: .9rem;
+  max-width: var(--maxw); margin: 0 auto; padding: 2.25rem 1.5rem;
+  text-align: center; color: var(--muted); font-size: .9rem;
 }
-.footer__top { color: var(--navy); font-weight: 600; }
+.footer p { margin: 0 0 .4rem; }
+.footer__top { display: inline-block; color: var(--navy); font-weight: 600; }
 .footer__top:hover { color: var(--accent); }
 
 /* ------------------------------ Reveal animation ------------------------------ */

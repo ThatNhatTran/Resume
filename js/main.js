@@ -42,6 +42,15 @@
   if (downloadBtn) {
     downloadBtn.addEventListener("click", function () { window.print(); });
   }
+    /* ---------- "Back to top" links (robust scroll to the very top) ---------- */
+  var prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  Array.prototype.slice.call(document.querySelectorAll('a[href="#top"]')).forEach(function (link) {
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: prefersReduced ? "auto" : "smooth" });
+      closeMenu();
+    });
+  });
 
   /* ---------- Reveal-on-scroll animations ---------- */
   var revealEls = document.querySelectorAll(".reveal");
